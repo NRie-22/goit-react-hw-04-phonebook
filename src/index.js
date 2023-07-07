@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from 'components/App';
+import ReactDOM from 'react-dom/client';
+import { App } from './components/App'; // Update the import to use named export
 import './index.css';
 import { theme } from './components/theme';
 import { ThemeProvider } from '@emotion/react';

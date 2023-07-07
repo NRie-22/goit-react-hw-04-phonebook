@@ -1,3 +1,4 @@
+// components/App.js
 import React, { useState, useEffect } from 'react';
 import shortid from 'shortid';
 import { ToastContainer, toast } from 'react-toastify';
@@ -81,4 +82,4 @@ const App = () => {
   );
 };
 
-export default App;
+export { App }; // Явный именованный экспорт
